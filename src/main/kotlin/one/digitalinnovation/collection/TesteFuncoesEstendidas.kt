@@ -8,6 +8,11 @@ fun main() {
         "1500".toBigDecimal(),
         "4000".toBigDecimal())
 
+
+    val map = mapof("chave","valor")
+    val nomes = Array<String>{"joao", "maria"}
+
     println("A somatoria dos salários é  ${salarios.somatoria()}")
     println("A media dos salários é ${salarios.media()}")
 }
+
